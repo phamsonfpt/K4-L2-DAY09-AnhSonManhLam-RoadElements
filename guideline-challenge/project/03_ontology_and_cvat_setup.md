@@ -20,9 +20,9 @@ Bảng ontology là **source of truth** cho schema CVAT: `03_cvat_labels.json` p
 
 ## CVAT
 
-- **Phiên bản CVAT** (`make cvat-status`): (điền sau khi check)
+- **Phiên bản CVAT** (`make cvat-status`): CVAT 2.74.1
 - **Tên task calibration** (có version guideline): schoolmini-calib-v1
-- **Guide của task đã dán `02_guideline.md`?** (điền khi setup task CVAT)
+- **Guide của task đã dán `02_guideline.md`?** Đã dán
 - **Nhóm dùng Track hay Shape, vì sao:** Calibration (LISA video) dùng Track vì cần theo dõi đèn qua 30 frame liên tiếp. Blind test (BDD ảnh tĩnh) dùng Shape vì mỗi ảnh độc lập.
 
 ## Setup test
