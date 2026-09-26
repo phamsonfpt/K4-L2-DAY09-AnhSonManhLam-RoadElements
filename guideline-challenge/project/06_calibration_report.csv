@@ -1,1 +1,4 @@
 sample_id,item,values_by_annotator,diagnosis,action,rule_change
+BDD15,traffic_light.state,"lich=(không vẽ), manh=unknown, son=yellow, tienanh=green, vudinhsonlam=red",data_ambiguity,revise_rule,Thêm luật rõ ràng về lóa sáng ban đêm -> ép dùng unknown
+LISA01,traffic_light.relevance,"lich=__undefined__, manh=relevant, son=unknown, tienanh=not_relevant",execution_error,coaching,Nhắc nhở Lịch không được để __undefined__ trước khi export
+BDD15,traffic_light.relevance,"lich=(không vẽ), manh=relevant, son=unknown, tienanh=relevant|unknown, vudinhsonlam=unknown|unknown",guideline_gap,revise_rule,Bổ sung ví dụ và luật Escalation khi mất vạch kẻ đường ban đêm

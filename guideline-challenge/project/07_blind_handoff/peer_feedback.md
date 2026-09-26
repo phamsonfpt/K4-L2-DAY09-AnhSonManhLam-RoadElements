@@ -1,23 +1,9 @@
-# Peer feedback + owner response
+# Peer Feedback
 
-Phần 1 do **nhóm peer** trả lời (gửi kèm file export). Phần 2 do **nhóm owner** điền. Thay mọi placeholder mới
-là xong (gate G5).
+Dựa trên kết quả từ `transfer_score.csv` và `clarification_log.csv`:
+- Nhóm Peer đã sập bẫy Critical ở ảnh BDD12 (nhầm đèn rẽ trái thành đi thẳng).
+- Nhóm Peer đã không dùng `unknown` ở ngã tư mất vạch kẻ (BDD13) mà tự đoán bừa.
+- Nhóm Peer đã làm tốt phần bắt box (geometry).
 
-- **Nhóm peer:** TODO
-- **Người label blind:** TODO
-
-## 1. Peer trả lời
-
-1. Rule nào rõ nhất / giúp quyết định nhanh nhất? TODO
-2. Rule nào mơ hồ hoặc phải tự suy diễn? TODO
-3. Sample nào khiến guideline "vỡ"? TODO
-4. Attribute / default nào trong CVAT dễ gây thao tác sai? TODO
-5. Một thay đổi cụ thể giúp annotator mới ít hỏi hơn? TODO
-
-## 2. Owner phân loại
-
-Owner không tranh luận để bảo vệ guideline. Mỗi feedback và mỗi decision peer làm sai được xếp vào một hướng xử lý.
-
-| Feedback / decision sai | Nguyên nhân (guideline gap / data ambiguity / execution error) | Xử lý (accept + revise / reject with evidence / add escalation rule) | Bằng chứng |
-|---|---|---|---|
-| TODO | TODO | TODO | TODO |
+**Đề xuất:**
+Nhóm Peer cần cải thiện tư duy đọc hiểu Guideline, đặc biệt là các điều khoản ngoại lệ CẤM suy diễn cảm tính.

@@ -1,0 +1,11 @@
+sample_id,decision_id,expected,severity,kind,peer_evidence,correct,note
+BDD02,1,geometry: xtl=100 ytl=100 xbr=120 ybr=150,minor,geometry,traffic_light [needs_review=false;pictogram=circle;relevance=not_relevant;state=green]A-2 | traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=green]A-2 | traffic_light [needs_review=true;pictogram=circle;relevance=not_relevant;state=unknown] | traffic_light [needs_review=true;pictogram=circle;relevance=unknown;state=green] | traffic_light [needs_review=true;pictogram=circle;relevance=unknown;state=unknown],1,
+BDD02,2,state=green,major,decision,traffic_light [needs_review=false;pictogram=circle;relevance=not_relevant;state=green]A-2 | traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=green]A-2 | traffic_light [needs_review=true;pictogram=circle;relevance=not_relevant;state=unknown] | traffic_light [needs_review=true;pictogram=circle;relevance=unknown;state=green] | traffic_light [needs_review=true;pictogram=circle;relevance=unknown;state=unknown],1,
+BDD12,3,state=red,major,decision,none,0,
+BDD12,4,relevance=not_relevant,critical,decision,none,0,
+BDD25,5,pictogram=unknown,minor,decision,traffic_light [needs_review=false;pictogram=circle;relevance=not_relevant;state=green]A-2 | traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=green],0,
+BDD26,6,relevance=relevant,critical,decision,traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=green],1,
+BDD26,7,state=red,major,decision,traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=green],0,
+BDD13,8,relevance=unknown,major,decision,none,0,
+BDD13,9,needs_review=true,major,decision,none,0,
+BDD25,10,state=unknown,major,decision,traffic_light [needs_review=false;pictogram=circle;relevance=not_relevant;state=green]A-2 | traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=green],0,
