@@ -1,29 +1,30 @@
 # Ontology + CVAT setup
 
-Bảng ontology là **source of truth** cho schema CVAT: `03_cvat_labels.json` phải khớp từng dòng ở đây. Thay mọi
-placeholder mới là xong (gate G2).
+Bảng ontology là **source of truth** cho schema CVAT: `03_cvat_labels.json` phải khớp từng dòng ở đây.
 
 ## Ontology table
 
 | Name | Geometry | Type (class / attribute) | Allowed values | Default | Mutable? | Rationale |
 |---|---|---|---|---|---|---|
-| TODO | TODO | TODO | TODO | TODO | TODO | TODO |
+| traffic_light | rectangle | class (label) | — | — | — | Mỗi đầu đèn vật lý = 1 instance. Chỉ cần 1 class duy nhất vì tất cả đều là đèn giao thông, phân biệt bằng attribute |
+| state | — | attribute of traffic_light | red, yellow, green, off, unknown | `__undefined__` | Yes | Trạng thái đèn thay đổi theo thời gian (frame). off = đèn tắt, unknown = không đọc được |
+| relevance | — | attribute of traffic_light | relevant, not_relevant, unknown | `__undefined__` | No | Một đèn vật lý cố định cho 1 nhóm làn — không đổi theo frame. unknown kèm needs_review = ESCALATE |
+| pictogram | — | attribute of traffic_light | circle, arrow_left, arrow_straight, arrow_right, other, unknown | `__undefined__` | No | Hình in trên mặt kính đèn — cố định vật lý. Là bằng chứng để xác định relevance |
+| needs_review | — | attribute of traffic_light | true, false | false | Yes | Flag cho QA reviewer kiểm tra. Bật khi relevance=unknown hoặc bất kỳ khi nào không chắc chắn |
 
 ## Class hay attribute
 
-TODO — vì sao mỗi thứ là class hay attribute (xem README mục "2 · Viết guideline"). Default nào có thể gây bias khi
-annotator quên đổi?
+- `traffic_light` là **class** vì đây là object type duy nhất cần detect. Không cần class khác.
+- `state`, `relevance`, `pictogram` là **attribute** vì chúng là thuộc tính của cùng 1 object. Nếu tách thành class riêng sẽ nổ tổ hợp (5 state x 3 relevance x 6 pictogram = 90 class — vô lý).
+- Default `__undefined__` có thể gây bias: annotator quên đổi → export có giá trị không hợp lệ. Self-QC phải kiểm tất cả box không còn `__undefined__`.
 
 ## CVAT
 
-- **Phiên bản CVAT** (`make cvat-status`): TODO
-- **Tên task calibration** (có version guideline, ví dụ `team07-calib-v1`): TODO
-- **Guide của task đã dán `02_guideline.md`?** TODO (có / chưa)
-- **Nhóm dùng Track hay Shape, vì sao:** TODO
+- **Phiên bản CVAT** (`make cvat-status`): (điền sau khi check)
+- **Tên task calibration** (có version guideline): schoolmini-calib-v1
+- **Guide của task đã dán `02_guideline.md`?** (điền khi setup task CVAT)
+- **Nhóm dùng Track hay Shape, vì sao:** Calibration (LISA video) dùng Track vì cần theo dõi đèn qua 30 frame liên tiếp. Blind test (BDD ảnh tĩnh) dùng Shape vì mỗi ảnh độc lập.
 
 ## Setup test
 
-Một thành viên **chưa tham gia setup** mở task và trả lời: label gì, dùng tool nào, gán attribute nào, khi nào
-escalate. Ghi lại ai test và chỗ họ vấp:
-
-TODO
+(Đinh Hoàng Lịch sẽ mở task CVAT và ghi kết quả test ở đây sau khi setup xong)
