@@ -1,1 +1,4 @@
 sample_id,item,values_by_annotator,diagnosis,action,rule_change
+LISA21,box: đèn lóa sáng,Thanh Sơn: 1 box; Tiến Anh: 0 box; Sơn Lâm: 0 box; Hoàng Lịch: 0 box; Đình Mạnh: 1 box,guideline_gap,revise_rule,Thêm rule v2: Chấp nhận vẽ ôm quầng sáng ban đêm
+LISA21,state: đèn lóa sáng,Thanh Sơn: red; Đình Mạnh: yellow,data_ambiguity,no_change,Không đổi
+BDD10,box: đèn người đi bộ,Hoàng Lịch: 0 box; Các bạn khác: 1 box,guideline_gap,revise_rule,Thêm rule: Ignore đèn người đi bộ

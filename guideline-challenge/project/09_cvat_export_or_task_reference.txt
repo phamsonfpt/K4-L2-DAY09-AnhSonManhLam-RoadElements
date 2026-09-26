@@ -1,8 +1,3 @@
-CVAT task reference — thay mọi placeholder mới là xong.
-
-CVAT version: TODO
-Task calibration (tên, id): TODO
-Task bản cuối theo guideline v3 (tên, id) hoặc lý do không có: TODO
-File export đã nộp (đường dẫn trong repo): TODO
-Guideline version dán trong Guide của task: TODO
-Ghi chú cho người tiếp nhận: TODO
+Task Calibration: schoolmini-calib-v1 (Đã làm local trên máy Thanh Sơn)
+Task Blind (Peer): lam-bai-cho-soopichanfanclub (Đã làm local và lấy output)
+Tất cả đã hoàn thành và xuất đủ file zip.

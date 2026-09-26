@@ -1,6 +1,6 @@
 # Peer feedback + owner response
 
-Phần 1 do **nhóm peer** trả lời (gửi kèm file export). Phần 2 do **nhóm owner** điền.
+Phần 1 do **nhóm peer** trả lời (gửi kèm file export). Phần 2 do **nhóm owner** điền. Thay mọi placeholder mới là xong (gate G5).
 
 - **Nhóm peer:** Soopichanfanclub
 - **Người label blind:** Thành viên nhóm Soopichanfanclub

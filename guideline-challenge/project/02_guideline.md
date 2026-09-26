@@ -1,6 +1,6 @@
 # Annotation guideline — Traffic light state + ego relevance at multi-light intersections
 
-**Version:** v2
+**Version:** v3
 
 ## 1. Objective + scope
 
@@ -10,6 +10,8 @@
 - Mọi đầu đèn giao thông (tín hiệu điều khiển giao thông) mà nhìn thấy >= 50% vỏ đèn
 - Đèn tròn, đèn mũi tên, đèn người đi bộ (phân loại qua `pictogram`)
 - Đèn nhỏ/xa nếu nhìn thấy vỏ đèn
+- 🚨 **[v3] CẤM ĐOÁN MÒ:** Nếu mất vạch kẻ đường, không được tự ý suy diễn làn xe. Nếu lóa sáng không thấy vỏ, không được suy diễn hình dáng đèn (`pictogram`). Tự động gán `unknown`.
+
 
 **Ngoài scope (IGNORE — không vẽ box):**
 - Phản chiếu đèn trên kính xe, mặt đường, tòa nhà

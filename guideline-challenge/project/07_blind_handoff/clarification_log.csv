@@ -1,1 +1,4 @@
 time,asker,question,answered_how,guideline_change
+14:30,Peer_Team,Ở ảnh BDD12 đèn màu đỏ rất to bên trái xe ego thì gán relevance thế nào?,Giải thích rằng đó là đèn mũi tên rẽ trái, ego đi thẳng nên not_relevant.,Thêm quy tắc nhấn mạnh phải nhìn hướng mũi tên của đèn
+14:45,Peer_Team,Ảnh BDD13 ngã tư rối quá không thấy vạch kẻ đường thì đoán làn kiểu gì?,Không được đoán mò. Ép dùng relevance=unknown và tick needs_review.,Ghi rõ luật CẤM đoán mò cảm tính khi mất vạch kẻ đường
+15:00,Peer_Team,Ảnh BDD26 đêm lóa sáng chỉ thấy quầng đỏ thì có điền pictogram circle không?,Không thấy vỏ nhựa nên không thể chắc chắn là đèn tròn hay mũi tên. Phải để unknown.,Bổ sung dòng cấm suy diễn pictogram khi chỉ thấy quầng sáng
