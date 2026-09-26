@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>20</id>
+      <size>30</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-26 04:34:30.085072+00:00</created>
+      <updated>2026-09-26 05:08:58.998964+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>29</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>20</id>
+          <start>0</start>
+          <stop>29</stop>
+          <url>http://localhost:8080/api/jobs/20/dataset/export/api/jobs/20</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>lich</username>
+        <email>26ai.lichdh@vinuni.edu.vn</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>traffic_light</name>
+          <color>#F9A825</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>state</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+red
+yellow
+green
+off
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>relevance</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+relevant
+not_relevant
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>pictogram</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+circle
+arrow_left
+arrow_straight
+arrow_right
+other
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>needs_review</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-09-26 05:09:56.762927+00:00</dumped>
+  </meta>
+  <image id="0" name="LISA01.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="1" name="LISA02.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="2" name="LISA03.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="3" name="LISA04.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="4" name="LISA05.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="5" name="LISA06.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="6" name="LISA07.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="7" name="LISA08.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="8" name="LISA09.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="9" name="LISA10.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="10" name="LISA11.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="11" name="LISA12.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="12" name="LISA13.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="13" name="LISA14.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="14" name="LISA15.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.90" ytl="130.35" xbr="761.35" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="15" name="LISA16.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="16" name="LISA17.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="17" name="LISA18.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="18" name="LISA19.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="19" name="LISA20.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="20" name="LISA21.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="21" name="LISA22.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="22" name="LISA23.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="23" name="LISA24.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="24" name="LISA25.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="25" name="LISA26.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="26" name="LISA27.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="27" name="LISA28.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="28" name="LISA29.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+  <image id="29" name="LISA30.jpg" width="1280" height="960">
+    <box label="traffic_light" source="manual" occluded="0" xtl="732.63" ytl="129.72" xbr="761.04" ybr="197.79" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+    <box label="traffic_light" source="manual" occluded="0" xtl="926.21" ytl="140.34" xbr="954.32" ybr="210.28" z_order="0">
+      <attribute name="state">__undefined__</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">__undefined__</attribute>
+      <attribute name="pictogram">__undefined__</attribute>
+    </box>
+  </image>
+</annotations>
