@@ -27,4 +27,4 @@ Bảng ontology là **source of truth** cho schema CVAT: `03_cvat_labels.json` p
 
 ## Setup test
 
-(Đinh Hoàng Lịch sẽ mở task CVAT và ghi kết quả test ở đây sau khi setup xong)
+Đinh Hoàng Lịch đã mở task CVAT thành công, upload bộ ảnh calibration và dán Sổ quy tắc (guideline) vào mô tả task. Các thành viên đã truy cập và thao tác gán nhãn bình thường. Đảm bảo CVAT hoạt động tốt.
