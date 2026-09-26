@@ -1,6 +1,6 @@
 # Annotation guideline — Traffic light state + ego relevance at multi-light intersections
 
-**Version:** v1
+**Version:** v2
 
 ## 1. Objective + scope
 
@@ -31,6 +31,7 @@
 - **Đèn bị cắt mép ảnh:** Box đi tới mép ảnh
 - **Tolerance:** <= 2 pixel mỗi cạnh so với vỏ đèn
 - **Đèn chồng lấn:** Mỗi đầu đèn 1 box riêng, box được phép overlap
+- 🚨 **Ngoại lệ ban đêm (Rule mới v2):** Nếu đèn ở xa hoặc lóa đến mức hoàn toàn chìm vỏ vào bóng tối nhưng thấy rõ quầng sáng (halo) đặc trưng của đèn giao thông, **được phép vẽ Box ôm sát vầng sáng đó**. Không vẽ quá rộng ra ngoài vầng sáng.
 
 ## 4. Taxonomy
 
@@ -67,9 +68,9 @@ Bảng đầy đủ ở `03_ontology_and_cvat_setup.md` — hai nơi phải kh�
 | Đèn rõ ràng | Label bình thường |
 | Đèn bị che 1 phần (>= 50% visible) | Vẫn label, box ôm phần thấy, `needs_review=true` nếu không chắc |
 | Đèn bị che gần hết (< 50% visible) | IGNORE — không vẽ |
-| Đèn bị lóa (glare) | Vẫn label (thấy vỏ đèn), `state=unknown` nếu không đọc chắc được màu |
+| Đèn bị lóa (glare) ban ngày | Vẫn label (thấy vỏ đèn), `state=unknown` nếu không đọc chắc được màu |
 | Đèn quá nhỏ/xa (< 15px) | Vẫn label nếu nhận ra là đèn giao thông, `state=unknown`, `pictogram=unknown`, `needs_review=true` |
-| Ban đêm — đèn sáng nhưng vỏ không rõ | Label nếu nhận ra vỏ đèn từ hình dạng ánh sáng |
+| Ban đêm chìm vỏ (Rule mới v2) | Vẫn vẽ box ôm vầng sáng. Bắt buộc gán `pictogram = unknown`, `relevance = unknown`, `needs_review = true` |
 
 ## 7. Ambiguity / escalation
 
@@ -83,7 +84,7 @@ Bảng đầy đủ ở `03_ontology_and_cvat_setup.md` — hai nơi phải kh�
 | Đèn gắn giá treo phía trước, cùng hướng ego, pictogram phù hợp | `relevance=relevant` |
 | Đèn rõ ràng cho làn rẽ trái nhưng ego đi thẳng | `relevance=not_relevant` |
 | Đèn cho người đi bộ | `relevance=not_relevant` |
-| Không xác định được đèn cho làn nào | `relevance=unknown`, `needs_review=true` → ESCALATE |
+| Không xác định được vạch kẻ / không rõ làn ego | `relevance=unknown`, `needs_review=true` → ESCALATE |
 
 **LABEL / IGNORE / UNKNOWN / ESCALATE trong CVAT:**
 - LABEL = có box

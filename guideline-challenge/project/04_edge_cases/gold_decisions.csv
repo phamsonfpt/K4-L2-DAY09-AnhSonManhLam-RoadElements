@@ -1,1 +1,11 @@
 sample_id,decision_id,expected,severity,rationale
+BDD02,1,geometry: xtl=100 ytl=100 xbr=120 ybr=150,minor,Phải vẽ box sát vỏ đèn theo geometry rule
+BDD02,2,state=green,major,Đèn màu xanh rõ ràng
+BDD12,3,state=red,major,Đèn màu đỏ
+BDD12,4,relevance=not_relevant,critical,Đèn màu đỏ nhưng khác làn (đèn rẽ trái)
+BDD25,5,pictogram=unknown,minor,Đèn mờ lúc bình minh không nhìn rõ mũi tên
+BDD26,6,relevance=relevant,critical,Đèn trong đêm tối nhưng điều khiển làn xe đi thẳng
+BDD26,7,state=red,major,Đèn màu đỏ điều khiển xe đi thẳng
+BDD13,8,relevance=unknown,major,Ngã tư quá nhiều đèn không thể suy luận
+BDD13,9,needs_review=true,major,Bắt buộc tick needs_review khi relevance=unknown
+BDD25,10,state=unknown,major,Bị lóa lúc chạng vạng
